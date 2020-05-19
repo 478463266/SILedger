@@ -1,3 +1,5 @@
+We implement the proof-of-concept prototype for SILedger using CP-ABE toolkit and FISCO BCOS blockchain platform. As the code of the two frameworks are public and large, here we only give the key function logic and added files in FISCO. 
+
 1. The nodes file contains the related configuration and storage files of the BCOS blockchain nodes (e.g., encrypted and decrypted token files, encryption and decryption related public keys and private keys, authentication files)
 
 2. The authorization file includes the configuration and operation code during the authorization process:

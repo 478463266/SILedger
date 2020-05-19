@@ -1,0 +1,33 @@
+[consensus]
+    ; consensus algorithm now support PBFT(consensus_type=pbft), Raft(consensus_type=raft)
+    ; and rpbft(consensus_type=rpbft)
+    consensus_type=pbft
+    ; the max number of transactions of a block
+    max_trans_num=1000
+    ; rpbft related configuration
+    ; the sealers num of each consensus epoch
+    epoch_sealer_num=12
+    ; the number of generated blocks each epoch
+    epoch_block_num=1000
+    ; the node id of consensusers
+    node.0=e89e4a45bdbddff08b031ff25a5bf3ab6aa868c259ad06f4180e7d6d782b8d49b51d05beee2dd07e3fd4f0883eeef279737c10f25a132724be23bfc9d84d7c8d
+    node.1=4d2aa2adf31486fd10b090dd683ef32ebfeaaaaafe73d4c05f1267fc23f4a4a492388ceafab906dcc730cbda19b55ef247d57509b6f82328d603534b42531c47
+    node.2=20d371db298fe8cccec5aa9fb2e23363d9bde61118d6251833f007407e1e5ea0e08f81584d0bef91df3cb7388c556a8c643d4d5c6d535bf2efa288e4d978bdb6
+    node.3=a7cfd990da070d3bbea2e3cfa23acf782376eddbe63b1b82bdbb882ffda5af6a54e7bdfadf037592b9124f87f420e2bef6f6cfa48a0efabb3d5fa240836058b3
+    node.4=7d970e4894c3bf8370cb6626a10d56c390fd8d5923329398c6e4cd17e5b1a051a16ca2a9fb1e6174165e63c518b7491a8e21f1708d009de65033b934531892b6
+    node.5=6cfd24dcde4555acc48db44a236fd42dc3220c39501a300764314cdc5865c5b0a837aff7a49978fe918096432629dc43f23ba8a5e12538b64babfaad6d371fbd
+    node.6=88cca4e45d34cad799b2954af202dfccd35a0777a12b6e8e87e826b9d849044a77e225c52542500f9cae845ad1afd8e19b2b1746e450781b7704f34477d1b122
+    node.7=92b374885260932dc620001e524d7e673fe63d3da235dab4433728ebadd0870a27f3bed4172226de0a6a96cb1f0d0fb60b9e7e1e5f8aadfeb476fed9137b7f2f
+    node.8=45e61099578612db08a8da318518dde66931cbb796299ebd03a1aaa4060944bb2d6f59b4381043a92b23321fba522826e59e71759ad4eccc5b311f00bb617f07
+    node.9=ad4c1d9058e5e4c9f8b7a0d99293b1cd972bcde5a8942cf54054df84b4a3476f38a1aea6cce49e5d85adf7a164e9fbbefcbf66ae773a45b7bff94f0016b51c11
+    node.10=64b3cb99a170ce4c8a8168d866f343bd9f5b267f0afba53c45ae126e271711f91675140ced1a6f34172d12407bcd1c7858434f06b0b850edcc0c95ae38b2fd05
+    node.11=a0c6802614aa52fb5b71800e0e869c14d3ea5b02ecf0a7346ee44569f9836630d01ace5da9501519450d06d5300949eebe3474bca073b48311b43640bd7d3c5d
+    
+[state]
+    type=storage
+[tx]
+    ; transaction gas limit
+    gas_limit=300000000
+[group]
+    id=1
+    timestamp=1588130548000

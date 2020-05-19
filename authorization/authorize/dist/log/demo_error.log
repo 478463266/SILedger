@@ -1,0 +1,19 @@
+[ERROR] [2020-04-29 12:00:02] org.fisco.bcos.asset.client.AssetClient.token4(456) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 12:04:00] org.fisco.bcos.asset.client.AssetClient.token4(456) |  registerAssetAccount exception, error message is  load Asset contract address failed, please deploy it first. 
+[ERROR] [2020-04-29 12:04:36] org.fisco.bcos.asset.client.AssetClient.token4(456) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 12:11:06] org.fisco.bcos.asset.client.AssetClient.token4(441) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 12:14:59] org.fisco.bcos.asset.client.AssetClient.token4(442) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 16:10:21] org.fisco.bcos.asset.client.AssetClient.token4(446) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 16:17:02] org.fisco.bcos.asset.client.AssetClient.token4(444) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 16:19:24] org.fisco.bcos.asset.client.AssetClient.token4(446) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 16:21:19] org.fisco.bcos.asset.client.AssetClient.token4(448) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 16:22:37] org.fisco.bcos.asset.client.AssetClient.token4(448) |  registerAssetAccount exception, error message is 1
+[ERROR] [2020-04-29 18:11:43] org.fisco.bcos.channel.client.Service.run(337) | connectSeconds = 30
+[ERROR] [2020-04-29 18:11:43] org.fisco.bcos.channel.client.Service.run(338) | can not connect to nodes success, please checkout the node status and the sdk config!
+[ERROR] [2020-04-29 18:11:43] org.fisco.bcos.channel.client.Service.run(349) | system error 
+java.lang.Exception: Can not connect to nodes success, please checkout the node status and the sdk config!
+	at org.fisco.bcos.channel.client.Service.run(Service.java:340)
+	at org.fisco.bcos.asset.client.AssetClient.initialize(AssetClient.java:82)
+	at org.fisco.bcos.asset.client.AssetClient.main(AssetClient.java:490)
+[ERROR] [2020-04-29 20:07:58] org.fisco.bcos.asset.client.AssetClient.token4(463) |  registerAssetAccount exception, error message is 4
+[ERROR] [2020-04-29 20:11:16] org.fisco.bcos.asset.client.AssetClient.token4(465) |  registerAssetAccount exception, error message is 4
